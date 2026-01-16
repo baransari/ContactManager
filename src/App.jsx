@@ -1,8 +1,8 @@
 import './App.css'
 import { useState } from 'react'
 import initialContacts from './data/initialContacts'
-import ContactForm from '../components/ContactForm'
-import ContactList from '../components/ContactList'
+import ContactForm from './components/ContactForm'
+import ContactList from './components/ContactList'
 
 
 function App() {
