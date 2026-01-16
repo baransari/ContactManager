@@ -16,8 +16,10 @@ function App() {
 
   return (
     <>
+      <h1>Contact Manager</h1>
       <ContactForm setContacts={setContacts}/>
-
+      <hr/>
+      <h2>Search Contact</h2>
       <input 
         value={searchText}
         onChange={(e) => setSearchText(e.target.value)}
@@ -25,6 +27,8 @@ function App() {
         placeholder='Search Contact...' 
       
       />
+      <hr/>
+      <h2>Contact List</h2>
       <ContactList contacts={filteredContacts}/>
     </>
   )
